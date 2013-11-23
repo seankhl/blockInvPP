@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.24)  23 NOV 2013 17:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.24)  23 NOV 2013 17:37
 entering extended mode
 **report.tex
 (C:\Users\Daniel\Documents\blockInvPP\report\report.tex
@@ -139,11 +139,11 @@ Package caption Info: End \AtBeginDocument code.
 {C:/Users/Daniel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 (C:\Users\Daniel\Documents\blockInvPP\report\report.aux) ) 
 Here is how much of TeX's memory you used:
- 2296 strings out of 493921
- 37509 string characters out of 3144873
+ 2298 strings out of 493921
+ 37530 string characters out of 3144873
  95118 words of memory out of 3000000
- 5626 multiletter control sequences out of 15000+200000
- 9626 words of font info for 35 fonts, out of 3000000 for 9000
+ 5627 multiletter control sequences out of 15000+200000
+ 9795 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,9n,38p,833b,203s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x8
@@ -154,10 +154,11 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (2 pages, 86878 bytes).
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (2 pages, 90217 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
