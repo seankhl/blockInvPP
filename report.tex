@@ -1,0 +1,64 @@
+\documentclass[a4paper,12pt]{article}
+
+\setlength{\oddsidemargin}{0in}
+\setlength{\textwidth}{6.5in}    % Decrease the side margins
+\usepackage{multirow}
+
+
+\usepackage{amsmath}
+
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{fix-cm}	 % Custom font sizes - used for the initial letter in the document
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{9in}     % Decrease the top and bottom margins
+
+\title{Parallel Scientific Computing}
+\author{Sean Laguna  \\
+	\and 
+	Hannah Morgan \\
+	\and
+	Daniel Reid \\
+	\and
+	Severin Thaler \\
+	}
+\date{\vspace{-5ex}}	
+\begin{document}
+%\pagestyle{empty}   % No page numbering
+\maketitle
+
+
+
+\paragraph*{}
+	The purpose of this project is to implement a block inverse method using parallel prefix (PP) to solve a banded lower triangular matrix.  The required time is compared to the time required for solving the matrix using serial forward substitution (FS).  It was found that the total time required to solve a problem once with the block inverse parallel prefix  method was much greater the time to solve using forward substitution.  However much of work done in the PP method is reusable, so the marginal work to solve using the PP method is less than that of FS for large matrices (n > 512).
+
+\paragraph*{}
+	The algorithms were tested on a lower triangular matrix of bandwidth 2 of the form shown in 
+	$$
+	\begin{bmatrix}
+	1 & 0 & 0  &  \cdots & 0  \\
+	-1  & 1  & 0&   \cdots & 0 \\
+	0 & -1 & 1  & \ddots & 0 \\
+	\vdots & \vdots & \ddots  & \ddots & \vdots\\
+	 0 & 0 & 0 & \cdots &  1  \\
+	\end{bmatrix}
+	\begin{bmatrix}
+	x_1\\
+	\vdots \\
+	x_i\\
+	\vdots \\
+	x_n\\
+	\end{bmatrix} = 
+	\begin{bmatrix}
+	1\\
+	\vdots \\
+	1\\
+	\vdots \\
+	1\\
+	\end{bmatrix}$$	
+	  
+
+
+
+\end{document}
